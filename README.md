@@ -58,30 +58,42 @@ Next, we will have to choose an operating system. Azure offers quite a few diffe
 <img src="https://i.imgur.com/dlwDz0k.png" height="80%" width="80%" alt="Create Virtual Machine"/>
 </p>
 
-<h3>Step 4: Connect to virtual machine using Microsoft Remote Desktop (RDP)</h3>
+<h3>Step 4: Connect to virtual machine using Remote Desktop Connection (RDP)</h3>
 
-Now we will access the virtual machine using Microsoft Remote Desktop. If you are a macOS user, you have to download the application in the App Store. 
 
-<p align="center">
-<img src="" height="80%" width="80%" alt="Microsoft Remote Desktop"/>
-</p>
-
-In order to connect to the virtual machine, you will need the public IP address. You can find this on the right hand side of the VM menu. You can click copy to clipboard and it copys automaticly.
+In order to connect to the virtual machine, we will remotely connect to it. To do so, we will use Remote Desktop Connection. You will need the public IP address of the VM. You can find this on the right hand side of the VM menu. You can click copy to clipboard and it copys automaticly.
 
 <p align="center">
-<img src="" height="80%" width="80%" alt="SampleVM menu with arrow and circle"/>
+<img src="https://i.imgur.com/Muhrj0T.png" height="80%" width="80%" alt="SampleVM menu with arrow and circle"/>
 </p>
+<br />
 
 <p>
-Now go to the search bar and type in remote desktop connection and run.
+Now go to the search bar and type in remote desktop connection and run. Paste the IP address and enter the user name for the VM that you made earlier. Click connect. If done properly, it will ask for the users password. Click ok and follow all the prompts.
 </p>
 
 <p align="center">
 <img src="https://i.imgur.com/kXUHRZi.png" height="80%" width="80%" alt="Microsoft Remote Desktop 1"/>
 </p>
+<br />
 
 <p align="center">
-<img src="https://r.com/4IKJFik.png" height="80%" width="80%" alt="Windows 10 VM"/>
+<img src="https://i.imgur.com/tQ5PgyF.png" height="80%" width="80%" alt="Windows 10 VM"/>
+</p>
+
+<p align="center">
+<img src="https://i.imgur.com/BzkUoGk.png" height="80%" width="80%" alt="Microsoft Remote Desktop"/>
+</p>
+
+<p align="center">
+<img src="https://i.imgur.com/iAMcQ1M.png" height="80%" width="80%" alt="Microsoft Remote Desktop"/>
+</p>
+<br />
+
+<p>
+So, to recap, here is a shot inside the resourse group with our VM1 inside of it, along with the NIC for VM1, as well as security groups. I made another VM inside of this resource group named VM2 running a linux os. 
+<p align="center">
+<img src="https://i.imgur.com/aJUX8nR.png" height="80%" width="80%" alt="Microsoft Remote Desktop"/>
 </p>
 
 <h2>Congratulations! You have created your first virtual machine within Azure. Azure offers quite a few different options, you could run one VM with Windows, another with Linux, whatever you'd like! It's really quite nice to be able to just create a linux machine, go tinker around in it, play with different interfaces without having to spend thousands of dollars on mulitple different computers just to play with. </h2>
