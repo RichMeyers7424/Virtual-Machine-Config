@@ -34,7 +34,7 @@ Follow all the prompts to create the account. A credit card will be needed but w
 
 The Azure portal is located [here](https://www.portal.azure.com).
 
-In order to utilize some of the services in Azure, a resource group needs to be created. Resource groups store all resources that you are utilizing in Azure. This example will show how to deploy a Windows 10 virtual machine.
+In order to utilize some of the services in Azure, a resource group needs to be created. Resource groups will store all resources that you are utilizing in Azure. This example will show how to deploy a Windows 10 virtual machine.
 
 <p align="center">
 <img src="https://i.imgur.com/iihvTfI.png" height="80%" width="80%" alt="Azure Resource Groups with circle"/>
@@ -42,9 +42,6 @@ In order to utilize some of the services in Azure, a resource group needs to be 
 
 When ready, click create resource groups. From there, you will need to name your resource group and select the region. The region will determine which Azure data center will be utilize. We will name our Lab1. The rousource group will house our VM. Click "Review + Create" once finished.
 
-<p align="center">
-<img src="" height="80%" width="80%" alt="Create Azure Resource Groups"/>
-</p>
 
 <h3>Step 3: Create a virtual machine</h3>
 <p>
@@ -58,7 +55,7 @@ Now we are ready to create our first Virtual Machine!! To do so, click on the vi
 Next, we will have to choose an operating system. Azure offers quite a few different options, you could run one VM with Windows, another with Linux, whatever you'd like! Today we will use Windows 10. Then select a size, keep in mind how much your pc can afford to lend out.  The VMs that we create, once connected, will run off of your computer. Its kind of like having a roomate, who takes up space in your place and uses your resources. Try not to lend out more than half of your max.  If you have 16 gigs of ram(memory), try not to lend out any more than 8, or you could start to compromise preformance.
 </p>
 <p align="center">
-<img src="" height="80%" width="80%" alt="Create Virtual Machine"/>
+<img src="https://i.imgur.com/dlwDz0k.png" height="80%" width="80%" alt="Create Virtual Machine"/>
 </p>
 
 <h3>Step 4: Connect to virtual machine using Microsoft Remote Desktop (RDP)</h3>
