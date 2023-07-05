@@ -49,12 +49,16 @@ When ready, click create resource groups. From there, you will need to name your
 </p>
 
 <h3>Step 3: Create a virtual machine</h3>
-Next step is to create a virtual machine. At the portal, click on virtual machine and click create. Once at the create virtual machine menu, follow all the instructions. Make sure to fill out all the areas that have a red asterisk on them (resource group, name, etc.). Don't worry about the other tabs such as disks and networking as they will be prefilled. Make sure you remember the username and password! Once this is all completed, your virtual machine will appear in your resource group. 
-
+<p>
+Now we are ready to create our first Virtual Machine!! To do so, click on the virtual machine tab, then click on create.  A few different options will appear, just chose the Azure virtual machine option. From here, we will be presented with quite a few different options. We will only be using the Basics and Networking sections. Be sure that the virtual machine is placed in the resourse group that you just created. Now we will give our VM a name, this will help us differentiate between multiple VM's running simotanously. Im gonna chooose VM1, basic and generic but effective.
+</p>
 <p align="center">
 <img src="https://i.imgur.com/n61PWNI.png" height="80%" width="80%" alt="Virtual Machine Menu with arrow"/>
 </p>
 
+<p>
+Next, we will have to choose an operating system. Azure offers quite a few different options, you could run one VM with Windows, another with Linux, whatever you'd like! It's really quite nice to be able to just create a linux machine, go tinker around in it, play with different interfaces without having to spend thousands of dollars on mulitple different computers just to play with. Invaluable. I
+</p>
 <p align="center">
 <img src="https://r.com/a0OIYax.png" height="80%" width="80%" alt="Create Virtual Machine"/>
 </p>
@@ -63,7 +67,7 @@ Next step is to create a virtual machine. At the portal, click on virtual machin
 The final step to this process is accessing the virtual machine using Microsoft Remote Desktop. If you are a macOS user, you have to download the application in the App Store. 
 
 <p align="center">
-<img src="https:mgur.com/pp1yQTE.png" height="80%" width="80%" alt="Microsoft Remote Desktop"/>
+<img src=" height="80%" width="80%" alt="Microsoft Remote Desktop"/>
 </p>
 
 In order to connect to the virtual machine, you will need the public IP address. You can find this on the right hand side of this menu.
